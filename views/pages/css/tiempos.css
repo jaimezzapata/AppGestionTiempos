@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #f0f0f0;
 }
@@ -74,4 +74,18 @@ button[type="button"]:active {
 
     background-color: #0d2d72;
 
+}
+
+table {
+    width: 50%;
+    height: 50vh;
+    outline: 1px solid black;
+}
+
+tr,
+td {
+    outline: 1px solid black;
+}
+.botones {
+    /* background-color: purple; */
 }
