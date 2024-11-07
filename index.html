@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AppGestionTiempos</title>
-    <link rel="stylesheet" href="./views/css/style.css">
-</head>
-
-<body>
-    <header class="encabezado">
-        <nav>
-            <a href="./views/pages/viewTiempos.html">Tiempos</a>
-            <a href="./views/pages/viewProyectos.html">Proyectos</a>
-            <a href="./views/pages/viewEmpleados.html">Empleados</a>
-        </nav>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/views/css/style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">🌊</div>
+      <nav class="nav-links">
+        <a href="./index.html" class="active">Home</a>
+        <a href="./views/pages/viewEmpleados.html">Empleados</a>
+        <a href="./views/pages/viewProyectos.html">Proyectos</a>
+        <a href="./views/pages/viewTiempos.html">Tiempos</a>
+      </nav>
+      <div class="user-section">
+        <span class="notification-icon">🔔</span>
+      </div>
     </header>
-    <main class="contenido">
-
+    <main class="dashboard-content">
+      <div class="main-box">
+        <span class="glass"></span>
+        <h1>App Gestión Tiempos</h1>
+      </div>
+      <div class="main-box">
+        <span class="glass">
+          <p>
+            Esta pequeña aplicación tiene como objetivos mostrar un
+            comportamiento dinámico de etiquetas html manipuladas de JavaScript
+          </p>
+        </span>
+      </div>
     </main>
-
-
-    <script src="./js/validator.js"></script>
-</body>
-
+  </body>
 </html>

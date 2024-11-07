@@ -1,0 +1,131 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+    color: #333;
+  }
+  
+
+  .team-section {
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  .team-section h1 {
+    font-size: 36px;
+    color: #1e2a38;
+    margin-bottom: 10px;
+  }
+  
+  .team-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+
+  .team-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+
+  .team-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .team-card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .team-card h3 {
+    font-size: 18px;
+    color: #1e2a38;
+    margin-bottom: 5px;
+  }
+  
+  .team-card p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .social-icons .icon {
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .social-icons .icon:hover {
+    color: #1e2a38;
+  }
+  
+
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .action-buttons .edit-btn,
+  .action-buttons .delete-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+
+  .action-buttons .edit-btn {
+    background-color: #70a1ff;
+    color: #ffffff;
+  }
+  
+  .action-buttons .edit-btn:hover {
+    background-color: #417bff;
+  }
+
+  .action-buttons .delete-btn {
+    background-color: #ff512f;
+    color: #ffffff;
+  }
+  
+  .action-buttons .delete-btn:hover {
+    background-color: #d9482a;
+  }
+  
