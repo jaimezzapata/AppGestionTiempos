@@ -6,7 +6,6 @@
   font-family: Arial, sans-serif;
 }
 
-
 body {
   background-color: #f0f2f5;
   color: #333;
@@ -17,8 +16,8 @@ body {
   min-height: 100vh;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 header {
@@ -33,7 +32,8 @@ header {
   justify-content: center;
 }
 
-header button, header a {
+header button,
+header a {
   background-color: #3b4a5a;
   color: #ffffff;
   border: none;
@@ -44,12 +44,14 @@ header button, header a {
   transition: background-color 0.3s, transform 0.2s;
 }
 
-header button:hover, header a:hover {
+header button:hover,
+header a:hover {
   background-color: #1e2a38;
   transform: translateY(-2px);
 }
 
-header button:focus, header a:focus {
+header button:focus,
+header a:focus {
   outline: 2px solid #70a1ff;
 }
 
@@ -61,4 +63,15 @@ main {
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+main div {
+  width: 250px;
+}
+
+main div img {
+  width: 100%;
 }

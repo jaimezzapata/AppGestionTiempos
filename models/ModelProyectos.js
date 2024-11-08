@@ -6,7 +6,7 @@ export const proyectos = [
     duracion: "6 meses",
     dificultad: "alta",
     tipoProyecto: "back",
-    imagen: "/views/proyectos/img/1.png",
+    imagen: "/views/img/proyectos/1.jpg",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const proyectos = [
     duracion: "8 meses",
     dificultad: "media",
     tipoProyecto: "front",
-    imagen: "/views/proyectos/img/2.png",
+    imagen: "/views/img/proyectos/2.jpg",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const proyectos = [
     duracion: "12 meses",
     dificultad: "alta",
     tipoProyecto: "fullStack",
-    imagen: "/views/proyectos/img/3.png",
+    imagen: "/views/img/proyectos/3.jpg",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const proyectos = [
     duracion: "4 meses",
     dificultad: "baja",
     tipoProyecto: "front",
-    imagen: "/views/proyectos/img/4.png",
+    imagen: "/views/img/proyectos/4.jpg",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const proyectos = [
     duracion: "7 meses",
     dificultad: "media",
     tipoProyecto: "back",
-    imagen: "/views/proyectos/img/5.png",
+    imagen: "/views/img/proyectos/5.jpg",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ export const proyectos = [
     duracion: "5 meses",
     dificultad: "alta",
     tipoProyecto: "front",
-    imagen: "/views/proyectos/img/6.png",
+    imagen: "/views/img/proyectos/6.jpg",
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ export const proyectos = [
     duracion: "10 meses",
     dificultad: "alta",
     tipoProyecto: "fullStack",
-    imagen: "/views/proyectos/img/7.png",
+    imagen: "/views/img/proyectos/7.jpg",
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ export const proyectos = [
     duracion: "6 meses",
     dificultad: "media",
     tipoProyecto: "bases datos",
-    imagen: "/views/proyectos/img/8.png",
+    imagen: "/views/img/proyectos/8.jpg",
   },
   {
     id: 9,
@@ -78,7 +78,7 @@ export const proyectos = [
     duracion: "4 meses",
     dificultad: "baja",
     tipoProyecto: "back",
-    imagen: "/views/proyectos/img/9.png",
+    imagen: "/views/img/proyectos/9.jpg",
   },
   {
     id: 10,
@@ -87,7 +87,7 @@ export const proyectos = [
     duracion: "6 meses",
     dificultad: "alta",
     tipoProyecto: "bases datos",
-    imagen: "/views/proyectos/img/10.png",
+    imagen: "/views/img/proyectos/1.jpg",
   },
   {
     id: 11,
@@ -96,7 +96,7 @@ export const proyectos = [
     duracion: "5 meses",
     dificultad: "media",
     tipoProyecto: "front",
-    imagen: "/views/proyectos/img/11.png",
+    imagen: "/views/img/proyectos/1.jpg",
   },
   {
     id: 12,
@@ -105,7 +105,7 @@ export const proyectos = [
     duracion: "12 meses",
     dificultad: "alta",
     tipoProyecto: "fullStack",
-    imagen: "/views/proyectos/img/12.png",
+    imagen: "/views/img/proyectos/2.jpg",
   },
   {
     id: 13,
@@ -114,7 +114,7 @@ export const proyectos = [
     duracion: "8 meses",
     dificultad: "media",
     tipoProyecto: "back",
-    imagen: "/views/proyectos/img/13.png",
+    imagen: "/views/img/proyectos/3.jpg",
   },
   {
     id: 14,
@@ -123,7 +123,7 @@ export const proyectos = [
     duracion: "3 meses",
     dificultad: "baja",
     tipoProyecto: "front",
-    imagen: "/views/proyectos/img/14.png",
+    imagen: "/views/img/proyectos/4.jpg",
   },
   {
     id: 15,
@@ -132,7 +132,7 @@ export const proyectos = [
     duracion: "9 meses",
     dificultad: "alta",
     tipoProyecto: "back",
-    imagen: "/views/proyectos/img/15.png",
+    imagen: "/views/img/proyectos/5.jpg",
   },
   {
     id: 16,
@@ -141,7 +141,7 @@ export const proyectos = [
     duracion: "4 meses",
     dificultad: "baja",
     tipoProyecto: "front",
-    imagen: "/views/proyectos/img/16.png",
+    imagen: "/views/img/proyectos/6.jpg",
   },
   {
     id: 17,
@@ -150,7 +150,7 @@ export const proyectos = [
     duracion: "5 meses",
     dificultad: "media",
     tipoProyecto: "bases datos",
-    imagen: "/views/proyectos/img/17.png",
+    imagen: "/views/img/proyectos/7.jpg",
   },
   {
     id: 18,
@@ -159,7 +159,7 @@ export const proyectos = [
     duracion: "8 meses",
     dificultad: "alta",
     tipoProyecto: "fullStack",
-    imagen: "/views/proyectos/img/18.png",
+    imagen: "/views/img/proyectos/8.jpg",
   },
   {
     id: 19,
@@ -168,7 +168,7 @@ export const proyectos = [
     duracion: "6 meses",
     dificultad: "media",
     tipoProyecto: "front",
-    imagen: "/views/proyectos/img/19.png",
+    imagen: "/views/img/proyectos/9.jpg",
   },
   {
     id: 20,
@@ -177,6 +177,6 @@ export const proyectos = [
     duracion: "5 meses",
     dificultad: "baja",
     tipoProyecto: "back",
-    imagen: "/views/proyectos/img/20.png",
+    imagen: "/views/img/proyectos/20.jpg",
   },
 ];
